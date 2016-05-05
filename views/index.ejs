@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+<title>test app</title>
+</head>
+
+<body>
+   <h1>test index</h1>
+   the time is:  
+   <%= new Date()  %>
+
+   <ul>
+   <% for (var i=0; i< items.length; i++) { %>
+      <li><%= items[i].desc %> </li>
+   <% } %>
+   </ul>
+
+   <form action="/add" method="post">
+       <input type = "text" name="newItem">
+       <input type= "submit">
+   </form>
+</body>
+
+</html>
