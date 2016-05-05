@@ -14,5 +14,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "johnty",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://johnty@github.com/johnty/node_express_tut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnty/node_express_tut/issues"
+  },
+  "homepage": "https://github.com/johnty/node_express_tut#readme"
 }

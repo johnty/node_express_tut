@@ -9,8 +9,9 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views')); 
 
 //use middleware
-app.use(bodyParser.urlencoded());
+//app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, 'bower_components'))); //allows to reference folders
 
 var todoItems = [
  { id:1, desc: 'hello'},
